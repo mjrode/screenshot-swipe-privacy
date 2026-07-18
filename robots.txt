@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://mjrode.github.io/screenshot-swipe-privacy/sitemap.xml
