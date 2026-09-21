@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy — Screenshot Swipe</title>
-    <meta name="description" content="Screenshot Swipe's privacy policy. Photos and OCR processing stay on your device. No accounts, no tracking, no ads.">
+    <meta name="description" content="How Screenshot Swipe handles photo access, local notes, optional AI analysis, and subscriptions.">
     <link rel="canonical" href="https://mjrode.github.io/screenshot-swipe-privacy/privacy/">
     <link rel="icon" type="image/png" href="/screenshot-swipe-privacy/assets/favicon.png">
     <link rel="stylesheet" href="/screenshot-swipe-privacy/styles.css">
@@ -29,10 +29,10 @@
     <main class="legal">
         <div class="wrap-narrow">
             <h1>Privacy Policy</h1>
-            <p class="updated">Last updated: January 21, 2026</p>
+            <p class="updated">Last updated: September 21, 2026</p>
 
             <div class="highlight">
-                <p>Screenshot Swipe operates primarily on your device. Optional AI features may send extracted text to Google's servers.</p>
+                <p>Screenshot Swipe stores your notes and tags on your device. Optional AI features send selected photos or extracted text to Google Gemini. Purchases are managed through Apple and RevenueCat.</p>
             </div>
 
             <h2>Overview</h2>
@@ -45,40 +45,20 @@
                 <li>Delete screenshots you choose to remove</li>
                 <li>Keep track of screenshots you've saved</li>
             </ul>
-            <p>All photo processing happens locally on your device. Your actual images never leave your device.</p>
+            <p>Browsing, reviewing, and on-device text extraction do not upload your photos. If you choose an AI feature, the content described below is sent to Google Gemini for analysis.</p>
 
             <h2>AI-Powered Features (Optional)</h2>
-            <p>The app includes optional AI features ("Smart Analysis") that use Google's Gemini API to generate summaries and suggest tags.</p>
-
-            <div class="warning">
-                <p>You can disable AI features at any time in Settings → Smart Analysis.</p>
-            </div>
-
+            <p>AI Analyze, Smart Review, and Deep Library Analysis use Google's Gemini API to suggest notes, tags, and review actions. You can use manual review, notes, tags, and reminders without these features.</p>
             <h3>What data is sent</h3>
-            <p>When you tap "Scan &amp; Analyze" with Smart Analysis enabled:</p>
             <ul>
-                <li><strong>Text extracted from your screenshot</strong> is sent to Google's Gemini API</li>
-                <li>Only the text content is sent, <strong>not the actual image</strong></li>
-                <li>Your tags list is sent to help with tag suggestions</li>
+                <li>Selected screenshot or photo images, or extracted text, depending on the analysis feature</li>
+                <li>Available tag names and the review profile instructions and rules you choose</li>
+                <li>Content visible in the selected image, which may include personal information</li>
             </ul>
-
-            <h3>What data is NOT sent</h3>
-            <ul>
-                <li>Your actual screenshot images</li>
-                <li>Your personal information</li>
-                <li>Your notes or reminders</li>
-                <li>Any data from screenshots you don't actively scan</li>
-            </ul>
-
-            <h3>When disabled</h3>
-            <p>When Smart Analysis is disabled:</p>
-            <ul>
-                <li>No data is sent to external servers</li>
-                <li>Text extraction (OCR) still works entirely on-device</li>
-                <li>Tag suggestions use local keyword matching only</li>
-            </ul>
-
-            <p>When using AI features, your data is also subject to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</p>
+            <p>Individual analysis runs when you request it. Batch analysis uses the scope you select. If you enable Auto-Analyze New Screenshots in Settings, new screenshots are sent for analysis when you open the app. You can turn that option off in Settings.</p>
+            <p>Google processes AI requests under its <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a> and <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener">Gemini API terms</a>. Those terms describe how Google processes and retains submitted content.</p>
+            <h3>Using the app without AI</h3>
+            <p>Leave automatic analysis off and do not request AI analysis to keep your screenshot content out of AI requests. On-device OCR and manual organization remain available. Subscription services may still communicate with Apple and RevenueCat.</p>
 
             <h2>On-Device Text Extraction</h2>
             <p>The app uses Apple's Vision framework to extract text from screenshots. This processing happens entirely on your device and does not require an internet connection.</p>
@@ -99,15 +79,21 @@
                 </tr>
                 <tr>
                     <td>Google Gemini API</td>
-                    <td>AI text analysis</td>
-                    <td>Extracted text</td>
+                    <td>Optional AI analysis</td>
+                    <td>Selected images or extracted text, tag names, and review instructions</td>
                     <td>Yes</td>
                 </tr>
+                <tr>
+                    <td>Apple and RevenueCat</td>
+                    <td>Purchases, restores, and subscription status</td>
+                    <td>Purchase history and an anonymous app user identifier used to manage access</td>
+                    <td>Used for subscription services</td>
+                </tr>
             </table>
-            <p>The app does not use any analytics, advertising, or tracking services.</p>
+            <p>RevenueCat processes subscription information as described in its <a href="https://www.revenuecat.com/privacy/" target="_blank" rel="noopener">Privacy Policy</a>. Screenshot Swipe does not display ads.</p>
 
             <h2>Children's Privacy</h2>
-            <p>The app does not knowingly collect any data from anyone, including children under 13.</p>
+            <p>Screenshot Swipe does not require account registration. If you believe personal information about a child has been submitted through an optional AI feature, please contact us.</p>
 
             <h2>Changes to This Policy</h2>
             <p>We may update this Privacy Policy from time to time. Any changes will be reflected in the "Last updated" date above.</p>
